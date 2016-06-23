@@ -37,7 +37,7 @@ public class SubscribeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        configuration = new R5Configuration(R5StreamProtocol.RTSP, "localhost",  8554, "live", 1.0f);
+        configuration = new R5Configuration(R5StreamProtocol.RTSP, "10.0.0.61",  8554, "live", 1.0f);
     }
 
     @Override

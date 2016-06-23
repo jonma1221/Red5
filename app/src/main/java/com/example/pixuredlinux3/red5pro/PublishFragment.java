@@ -44,7 +44,7 @@ public class PublishFragment extends Fragment implements SurfaceHolder.Callback{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //127.0.0.1     1935
-        configuration = new R5Configuration(R5StreamProtocol.RTSP, "10.0.0.61",  5080, "live", 1.0f);
+        configuration = new R5Configuration(R5StreamProtocol.RTSP, "10.0.0.61",  8554, "live", 1.0f);
     }
 
     private void preview() {
